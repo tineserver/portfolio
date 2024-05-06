@@ -46,14 +46,35 @@
   font-size: 1rem;
   font-weight: 500;
   color: var(--white);
-  background-image: var(--gradient-2);
+  background-size: 300% 100%;
+  background-image: linear-gradient(
+    to right,
+    #6253e1,
+    #852d91,
+    #a3a1ff,
+    #f24645
+  );
   outline: none;
   border: none;
   border-radius: 5rem;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
   cursor: pointer;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
 }
 
+.btn:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn:focus {
+  outline: none;
+}
 .btn2 {
   width: 160px;
   font-size: 16px;
