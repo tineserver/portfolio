@@ -47,12 +47,12 @@
   font-weight: 500;
   color: var(--white);
   background-size: 300% 100%;
-  background-image: linear-gradient(
+background-image: linear-gradient(
     to right,
-    #6253e1,
-    #852d91,
-    #a3a1ff,
-    #f24645
+    #667eea,
+    #764ba2,
+    #6b8dd6,
+    #8e37d7
   );
   outline: none;
   border: none;
@@ -62,7 +62,7 @@
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   cursor: pointer;
-  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
 
 .btn:hover {
